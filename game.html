@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/gameStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="tittle">
+                <p>Pair Cards</p>
+        </div>
+    </header>
+    <main>
+        <div id="gameContainer">
+            <div id="game">
+                
+            </div>
+            
+            <div id="endGame">
+                <h1 id="finished"></h1>
+                <button id="newGame">New Game</button>
+            </div>
+            <img src="Images/Cards/back.png" alt="">
+            
+        </div>
+        
+        <div id="userContainer">
+            <form action="game.html" id="formEntrada"></form>
+            <img src="Images/goku.jpg"  id="gameCharacter">
+            <div class="itemForm">
+                <input type="text" id="nick" value="nick" readonly>
+            </div>
+            
+            <div id="turns-div">
+                <label for="turns">Turns</label>
+                <input type="text" id="turns" class="gameInput" value="5" readonly>
+            </div>
+
+            <div class="itemForm">
+                <label for="score">Score</label>
+                <input type="text" id="score" value="0" class="gameInput" readonly>
+            </div>
+
+            <div class="itemForm">
+                <label for="time">Time: </label>
+                <input type="text" id="time" value="60" class="gameInput" readonly>
+            </div>
+        </div>
+    </main>
+
+    <script src="JS/userData.js"></script>
+    <script src="JS/gameScript2.js"></script>
+</body>
+</html>

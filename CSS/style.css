@@ -1,0 +1,115 @@
+body{
+    color: white;
+    background-image: url("./Images/wavey-fingerprint.jpg");
+    background-size: auto;
+    background-position: center;
+}
+
+/*HEADER*/
+#logo{
+    width: 25rem;
+    height: 10rem;
+    margin-left: 47rem;
+}
+
+
+/*GENERAL*/
+img{
+    width: 7rem;
+    height: 7rem;
+}
+
+label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+input{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+select{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.25rem;
+    font-size: 1.125rem;
+}
+
+/*LOGIN*/
+#error{
+    color: red;
+    font-size: 1.2rem;
+    margin-left: 53rem;
+    margin-bottom: 2rem;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: -2rem;
+}
+
+#nickT{
+    margin-left: 3rem;
+}
+
+#nick{
+    height: 2rem;
+}
+
+/*DIFFICULT*/
+#numberCards{
+    margin-left: 2rem;
+}
+
+#difficult{
+    width: 6rem;
+}
+
+/*CHARACTERS*/
+#charactersContainer{
+    margin-left: 5rem;
+}
+
+#characterContainer{
+    display: grid;
+    margin-left: -5rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+#characterContainer img{
+    width: 10rem;
+    height: 10rem;
+}
+
+#characterGrid{
+    display: grid;
+    grid-template-columns: 9rem 9rem;
+    grid-template-rows: 9rem 9rem;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -5rem;
+    padding-top: 1rem;
+    border: 1px solid #ced4da;
+}
+
+/*SUBMIT*/
+input{
+    width: 19rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

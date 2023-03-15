@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <img src="Images/logo.jpg" alt="Dragon Ball Z" id="logo">
+    </header>
+
+    <main>
+        <div>
+            <p id="error"></p>
+        </div>
+
+        <form action="game.html" id="login">
+            <div class="itemForm">
+                <label for="nick" id="nickT">Enter your nickname</label>
+                <input type="text" name="nick" id="nick" required minlength="3">
+            </div>
+
+            <div class="itemForm">
+                <label for="number" id="numberCards">Number of cards</label>
+                <select name="number" id="number" required>
+                    <option value="0">Please choose the number of cards</option>
+                    <option value="2">4 Cards</option>
+                    <option value="4">16 Cards</option>
+                    <option value="6">36 Cards</option>
+                </select>
+            </div>
+
+            <div class="itemForm">
+                <label for="difficult">Difficult</label>
+                <select name="difficult" id="difficult">
+                    <option value="1">Easy</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Hard</option>
+                </select>
+            </div>
+
+            <div class="itemForm" id="charactersContainer">
+                <div id="characterContainer">
+                    <label for="avatar">Character</label>
+                    <img src="Images/goku.jpg" alt="characterSelected" id="characterImg">
+                </div>
+
+                <label for="character" id="characters">Characters</label>
+                <div id="characterGrid">
+                    <div class="characterItem">
+                        <img src="Images/gohan.jpg" alt="Gohan" class="characterImgItem" draggable="true">
+                    </div>
+
+                    <div class="characterItem">
+                        <img src="Images/goku.jpg" alt="Goku" class="characterImgItem" draggable="true">
+                    </div>
+
+                    <div class="characterItem">
+                        <img src="Images/vegeta.jpg" alt="Vegeta" class="characterImgItem" draggable="true">
+                    </div>
+
+                    <div class="characterItem">
+                        <img src="Images/gogeta.jpg" alt="Gogeta" class="characterImgItem" draggable="true">
+                    </div>
+                </div>
+            </div>
+
+            <div class="itemForm">
+                <input type="submit" name="Play" id="button">
+            </div>
+        </form>
+
+    </main>
+
+    <script src="JS/userData.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
