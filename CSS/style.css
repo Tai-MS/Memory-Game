@@ -1,6 +1,6 @@
 body{
     color: white;
-    background-image: url("./Images/wavey-fingerprint.jpg");
+    background-image: url("/Images/wavey-fingerprint.jpg");
     background-size: auto;
     background-position: center;
 }
