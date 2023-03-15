@@ -1,7 +1,7 @@
 /*GENERAL*/
 body{
     color: white;
-    background-image: url("./Images/vanishing-stripes.png");
+    background-image: url("/Memory-Game/Images/vanishing-stripes.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -50,7 +50,7 @@ label{
     background-color: #fff;
     border: 1px solid #ced4da;
     border-radius: 5px 5px 0px 0px;
-    background-image: url("./Images/endless-constellation.png");
+    background-image: url("/Memory-Game/Images/endless-constellation.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
